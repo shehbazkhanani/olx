@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1326px){
+    .avh {
+        height: 34vh!important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .searcher {
+        width: 40%;
+    }
+    .dropdown {
+        width: 70%;
+    }
+    .well {
+        display: none;
+    }
+    .insd {
+        display: none;
+    }
+    .mid {
+        margin-left: 8%;
+    }
+    .sell {
+        width: 300%;
+    }
+    .avh {
+        height: 31vh!important;
+    }
+   
+}
+
+@media only screen and (max-width: 991px) {
+    .searcher {
+        width: 80%;
+    }
+    .dropdown {
+        display: none;
+    }
+    .pic {
+        display: none;
+    }
+    .logo1 {
+        display: none;
+    }
+    .h {
+        font-size: 12px!important;
+    }
+    .well {
+        display: none;
+        border: 0px solid black!important;
+    }
+    .fon {
+        font-size: 20px!important;
+    }
+    .avh {
+        height: 25vh!important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .searcher {
+        width: 70%;
+    }
+    .h {
+        font-size: 8px!important;
+    }
+    .foot a li {
+        font-size: 8px!important;
+    }
+    .o {
+        display: none;
+    }
+    .mid {
+        display: none;
+    }
+    .fon {
+        font-size: 15px!important;
+    }
+}
+@media only screen and (max-width: 553px) {
+    .searcher {
+        width: 1%;
+    }
+    .l {
+        font-family: 6px!important;
+    }
+    .fon {
+        font-size: 13px!important;
+    }
+
+}
+@media only screen and (max-width: 404px) {
+    .log {
+        display: none;
+    }
+
+}
+
+.fa-heart:hover {
+    color: blue;
+}
+
+.main {
+    background-color: #f7f8f8;
+}
+
+.logo {
+width: 2rem;
+height: 2rem;
+fill: #3a77ff;
+}
+
+.logo1 {
+    height: 1.8rem;
+}
+
+.login {
+    border: transparent;
+    background-color: transparent;
+    color: #002f34;
+    border-bottom: 2px solid #002f34;
+    font-weight: bold;
+    font-size: 1em;
+    
+}
+
+.card {
+    width: 100%;
+    height: 90%;
+}
+
+
+.par {
+    padding-top: 20vh;
+}
+
+.link {
+    padding-top: 5px;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    color: #002f34;
+}
+
+.link:hover {
+    color: #3a77ff;
+    text-decoration: none;
+}
+
+.bor {
+    width: 150%;
+}
+
+.box {
+    margin-left: 8px;
+    width: 450px;
+    height: 42px;
+    background-color: white;
+    border: 1px solid #002f34;
+}
+
+.select {
+   width: 250px; 
+}
+
+.search i {
+    font-size: 15px;
+}
+
+.search {
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid black;
+    height: 40px;
+}
+
+.search p {
+    margin-top: 15px;
+}
+
+li {
+    display: flex;
+    padding: 5px;
+    width: 206px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.option p {
+  color: #444444;
+  margin-left: 10px;
+}
+
+.option i {
+    color: #444444;
+    margin-top: 4px;
+}
+
+.box {
+  box-shadow: 0 0 10px gray;
+  background-color: #ffff;
+  width: 240px;
+  height: auto;
+  display: none;
+}
+
+
+.card {
+    cursor: pointer;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.searcher {
+    display: flex;
+    margin-top: 16px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.searcher i {
+    background-color: #002f34;
+    color: white;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+
+.searching {
+    height: 43px;
+    width: 500px;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #002f34;
+}
+
+.searching:focus-visible {
+    outline: none;
+    border: 2px solid #85f3ff;
+}
+
+.line {
+    width: 2px;
+    height: 120%;
+    background-color: rgb(146, 145, 145, 0.5);
+}
+
+.foot a {
+    font-size: 12px;
+    color: #616464;
+    list-style-type: none!important;
+    text-decoration: none!important;
+}
+
+.foot a:hover {
+    color: #000000;
+    
+}
+
+.foot li {
+    padding: 1px;
+}
+
+.log button:hover {
+   border: 0px solid;
+}
